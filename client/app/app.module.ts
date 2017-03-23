@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { DataService } from './services/data.service';
 
 import { ToastComponent } from './shared/toast/toast.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 const routing = RouterModule.forRoot(routes,  { useHash: true });
 
@@ -21,7 +22,8 @@ const routing = RouterModule.forRoot(routes,  { useHash: true });
     LoginComponent,
     HomeComponent,
     AboutComponent,
-    ToastComponent
+    ToastComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

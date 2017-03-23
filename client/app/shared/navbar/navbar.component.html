@@ -1,0 +1,47 @@
+<!--
+<nav class="navbar navbar-dark navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a routerLink="/" class="nav-item nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                    <i class="fa fa-home"></i> Home
+                </a>
+            </li>
+            <li>
+                <a routerLink="/about" class="nav-item nav-link" routerLinkActive="active">
+                    <i class="fa fa-info-circle"></i> About
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>-->
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="active">
+                <a routerLink="/" class="nav-item nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                    <i class="fa fa-home"></i> Home
+                </a>
+            </li>
+            <li>
+                <a routerLink="/about" class="nav-item nav-link" routerLinkActive="active">
+                    <i class="fa fa-info-circle"></i> About
+                </a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
