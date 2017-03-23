@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 
 import { routes } from './config/routes';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { DataService } from './services/data.service';
@@ -17,6 +18,7 @@ const routing = RouterModule.forRoot(routes,  { useHash: true });
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
     HomeComponent,
     AboutComponent,
     ToastComponent

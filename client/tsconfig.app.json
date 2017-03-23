@@ -10,7 +10,7 @@
       "es2016",
       "dom"
     ],
-    "outDir": "../out-tsc/app",
+    "outDir": "../dist/public",
     "module": "es2015",
     "baseUrl": "",
     "types": []
