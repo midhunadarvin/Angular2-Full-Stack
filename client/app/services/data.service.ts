@@ -16,8 +16,16 @@ export class DataService {
     return this.http.get('/api/cats').map(res => res.json());
   }
 
+  countCats(): Observable<any> {
+    return this.http.get('/api/cats/count').map(res => res.json());
+  }
+
   addCat(cat): Observable<any> {
     return this.http.post('/api/cat', JSON.stringify(cat), this.options);
+  }
+
+  getCat(cat): Observable<any> {
+    return this.http.get(`/api/cat/${cat._id}`, this.options);
   }
 
   editCat(cat): Observable<any> {
